@@ -1,0 +1,87 @@
+/* ================================================= */
+/* ------------------ Contact Style ---------------- */
+/* ================================================= */
+
+#contact {
+    position: relative;
+    padding: 45px 0;
+}
+
+#contact .contact-info {
+    position: relative;
+}
+
+#contact .contact-info .info-item {
+    position: relative;
+    padding: 15px 50px;
+    margin-bottom: 15px;
+    background: #f2f2f2;
+    border-radius: 100px;
+}
+
+#contact .contact-info .info-item i {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+#contact .contact-info .info-item h3 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#contact .contact-info .info-item p {
+    margin: 0;
+}
+
+#contact .contact-form {
+    position: relative;
+}
+
+#contact .contact-form input[type="text"],
+#contact .contact-form input[type="email"] {
+    height: 35px;
+    font-size: 16px;
+    box-shadow: none;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+}
+
+#contact .contact-form textarea {
+    font-size: 16px;
+    box-shadow: none;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) { 
+    textarea:focus,
+    input:focus {
+        font-size: 16px;
+        background: #fff;
+    }
+}
+
+#contact .contact-form button {
+    display: inline-block;
+    padding: 5px 30px 8px 30px;
+    background: #7DC576;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    border-radius: 50px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+#contact .contact-form button:hover {
+    color: #7DC576;
+    background: #222222;
+}
+
+#contact .help-block ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}

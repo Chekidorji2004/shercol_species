@@ -1,0 +1,100 @@
+.icon-container {
+    width: 60px;
+    height: 60px;
+    background-color: #008000;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+.icon-container:hover {
+    background-color: #006400;
+}
+.icon-container i {
+    color: #ffffff;
+    font-size: 24px;
+}
+.form-container {
+    display: none;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    animation: fadeIn 0.3s ease-in-out;
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+.form-container .header {
+    background-color: #007a33;
+    color: white;
+    padding: 15px;
+    border-radius: 10px 10px 0 0;
+    position: relative;
+}
+.form-container .header i {
+    margin-right: 5px;
+}
+.form-container .header h2 {
+    margin: 0;
+    font-size: 18px;
+}
+.form-container .header p {
+    margin: 5px 0 0;
+    font-size: 12px;
+}
+.form-container .form-group {
+    margin: 20px 0;
+}
+.form-container .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #333;
+}
+.form-container .form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: border-color 0.3s;
+}
+.form-container .form-group select:focus {
+    border-color: #007a33;
+    outline: none;
+}
+.form-container .form-group button {
+    background-color: #007a33;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s;
+}
+.form-container .form-group button:hover {
+    background-color: #005a23;
+}
+.form-container .close-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    color: white;
+    font-size: 18px;
+}

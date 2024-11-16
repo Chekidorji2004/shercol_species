@@ -1,0 +1,36 @@
+/* Feed Section */
+.feed-section {
+    background-color: #F0F8FF; /* Alice Blue */
+    padding: 20px;
+  }
+
+  /* Feed Card */
+  .card {
+    transition: transform 0.2s, box-shadow 0.2s;
+    cursor: pointer;
+  }
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+  }
+  .card-img-top {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    object-fit: cover;
+    height: 150px;
+  }
+  .card-title {
+    font-size: 1.2em;
+    color: #333333;
+    font-weight: bold;
+  }
+  .detail-btn {
+    background-color: #333333;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-size: 0.9em;
+  }
+  .detail-btn:hover {
+    background-color: #555555;
+  }

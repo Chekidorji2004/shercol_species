@@ -1,0 +1,112 @@
+/*Search Section*/
+.search-section {
+    background-image: url('https://th.bing.com/th/id/OIP.FYJ1ppbZmigOeaC5xTj2MwHaEK?rs=1&pid=ImgDetMain');
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    padding: 50px 20px;
+    max-width: 700px;
+    margin: auto;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.search-section h1 {
+    color: #ffffff;
+    font-size: 32px;
+}
+
+.search-bar .form-control {
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.search-bar .btn {
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background-color: #28a745;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.search-bar .btn:hover {
+    background-color: #218838;
+}
+
+.search-bar .btn i {
+    margin-right: 5px;
+}
+
+/*Sections*/
+/* Container for the three-column layout */
+.threeCol {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  /* Individual collection sections */
+  .collection {
+    background-color: #f8f9fa;
+    border-color: #7DC576;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    flex: 1;
+    min-width: 300px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .collection:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Collection Head Styling */
+  .collection-head h2 {
+    font-size: 24px;
+    color: #7DC576;
+    margin-bottom: 10px;
+  }
+  
+  .collection-head h2 a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .collection-head p {
+    font-size: 16px;
+    color: #6c757d;
+    margin: 0;
+  }
+  
+  /* Collection Body Styling */
+  .collection-body ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 15px;
+  }
+  
+  .collection-body ul li {
+    margin-bottom: 10px;
+  }
+  
+  .collection-body ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #495057;
+    display: flex;
+    align-items: center;
+    transition: color 0.3s ease;
+  }
+  
+  .collection-body ul li a:hover {
+    color: #7DC576;
+  }
+  
+  .collection-body ul li i {
+    font-size: 18px;
+    color: #7DC576;
+    margin-right: 8px;
+  }
+  

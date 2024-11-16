@@ -1,0 +1,49 @@
+/* ================================================= */
+/* -------------- Section Header Style ------------- */
+/* ================================================= */
+
+.section-header {
+    position: relative;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.section-header h2 {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.section-header::before {
+    position: absolute;
+    content: '';
+    height: 1px;
+    width: 200px;
+    bottom: -10px;
+    left: calc(50% - 100px);
+    background: #666;
+}
+
+.section-header::after {
+    position: absolute;
+    content: '';
+    height: 14px;
+    width: 14px;
+    bottom: -17px;
+    left: calc(50% - 7px);
+    background: #666;
+    border-radius: 10px;
+}
+
+@media (max-width: 767.98px) {
+    .section-header h2 {
+        font-size: 35px;
+        font-weight: 600;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .section-header h2 {
+        font-size: 25px;
+        font-weight: 600;
+    }
+}
